@@ -1,0 +1,7 @@
+DISCORD_TOKEN: This variable should be set to the token for your Discord bot. To get this token, you will need to create a new application in the Discord Developer Portal (https://discord.com/developers/applications) and then create a bot for that application. Once you have created a bot, you can copy the bot's token from the "Bot" section of the Discord Developer Portal and paste it into the .env file as the value of the DISCORD_TOKEN variable.
+
+OPENAI_ORG: This variable should be set to the organization ID for your OpenAI API account. To find your organization ID, go to the OpenAI platform (https://platform.openai.com/account/org-settings) and look for the "Organization ID" field. Copy the ID and paste it into the .env file as the value of the OPENAI_ORG variable.
+
+OPENAI_KEY: This variable should be set to the API key for your OpenAI API account. To find your API key, go to the OpenAI platform (https://platform.openai.com/account/api-keys) and look for the "Secret API Key" field. Copy the key and paste it into the .env file as the value of the OPENAI_KEY variable.
+
+Once you have filled in these variables in the .env file, the code will be able to access your Discord bot and OpenAI API account. Note that you should keep these credentials private and not share them publicly, as they allow access to your accounts.
